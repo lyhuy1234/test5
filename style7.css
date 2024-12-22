@@ -134,30 +134,42 @@ iframe{
 
 
 .f{
-    margin-top: 5%;
+    margin-top: 40px;
     background-color: rgb(47, 0, 0);
     width: 100%;
     height: auto;
     padding: 40px;
 }
-  .fo1 {
-        margin-left: 40px;
-        margin-top: 8px;
-        text-align: left;
-        font-size: 10px;
-    }
-    .fo2 {
-        margin-left: 190px;
-        margin-top: -125.5px;
-        text-align: left;
-        font-size: 10px;
-    }
-    .fo3 {
-        margin-left: 39px;
-        margin-top: 45px;
-        text-align: left;
-        font-size: 10px;
-    }
+.fo1{
+    margin-left: 10%;
+    color: white;
+}
+.fo1 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo1 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo2{
+    margin-left: 30%;
+    margin-top: -11.5%;
+    color: white;
+}
+.fo2 li{
+    list-style: none;
+    margin: 7px;
+}
+.fo2 li a{
+    text-decoration: none;
+    color: white;
+}
+.fo3{
+    margin-left: 80%;
+    margin-top: -11.5%;
+    color: white;
+}
 /* Mobile-first: Small screens */
 
 @media screen and (max-width: 768px) {
